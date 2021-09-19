@@ -27,6 +27,13 @@
 | Count the days!              | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/CountTheDays.java) | [url](https://www.codewars.com/kata/5837fd7d44ff282acd000157) |
 | Get the Excel column title!  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/GetExcelColumnTitle.java) | [url](https://www.codewars.com/kata/56d082c24f60457198000e77) |
 | Interval                     | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/Interval.java) | [url](https://www.codewars.com/kata/5948117018e96c934e000196) |
+| Find the unique number       | [code](fsf) | [url](https://www.codewars.com/kata/585d7d5adb20cf33cb000235) |
+| Numericals of a String       | [code](fsf) | [url](https://www.codewars.com/kata/5b4070144d7d8bbfe7000001) |
+| Is a number prime?           | [code](fsf) | [url](https://www.codewars.com/kata/5262119038c0985a5b00029f) |
+| Split Strings                | [code](fsf) | [url](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) |
+| CamelCase Method             | [code](fsf) | [url](https://www.codewars.com/kata/587731fda577b3d1b0001196) |
+| Backspaces in string         | [code](fsf) | [url](https://www.codewars.com/kata/5727bb0fe81185ae62000ae3) |
+
 
 
 
