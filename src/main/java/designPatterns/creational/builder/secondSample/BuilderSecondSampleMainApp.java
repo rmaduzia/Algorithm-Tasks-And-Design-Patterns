@@ -1,4 +1,4 @@
-package designPatterns.constructions.builder.secondSample;
+package designPatterns.creational.builder.secondSample;
 
 public class BuilderSecondSampleMainApp {
 

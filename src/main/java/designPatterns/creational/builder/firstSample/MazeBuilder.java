@@ -1,6 +1,6 @@
-package designPatterns.constructions.builder.firstSample;
+package designPatterns.creational.builder.firstSample;
 
-import designPatterns.constructions.builder.firstSample.structure.Maze;
+import designPatterns.creational.builder.firstSample.structure.Maze;
 
 public abstract class MazeBuilder {
 

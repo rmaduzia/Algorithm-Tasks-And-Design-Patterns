@@ -1,7 +1,7 @@
-package designPatterns.constructions.builder.firstSample.structure;
+package designPatterns.creational.builder.firstSample.structure;
 
-import designPatterns.constructions.builder.firstSample.MazeBuilder;
-import designPatterns.constructions.builder.firstSample.StandardMazeBuilder;
+import designPatterns.creational.builder.firstSample.MazeBuilder;
+import designPatterns.creational.builder.firstSample.StandardMazeBuilder;
 
 public class MazeGame {
 

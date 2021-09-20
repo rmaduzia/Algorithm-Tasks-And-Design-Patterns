@@ -1,6 +1,5 @@
-package designPatterns.constructions.builder.firstSample.structure;
+package designPatterns.creational.builder.firstSample.structure;
 
-import designPatterns.constructions.builder.firstSample.structure.Room;
 import lombok.Getter;
 import lombok.Setter;
 

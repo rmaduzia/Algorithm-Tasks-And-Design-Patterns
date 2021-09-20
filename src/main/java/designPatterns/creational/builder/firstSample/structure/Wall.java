@@ -1,4 +1,4 @@
-package designPatterns.constructions.builder.firstSample.structure;
+package designPatterns.creational.builder.firstSample.structure;
 
 public class Wall extends MapSite {
 

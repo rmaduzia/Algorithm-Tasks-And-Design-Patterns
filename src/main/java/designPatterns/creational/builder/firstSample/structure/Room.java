@@ -1,4 +1,4 @@
-package designPatterns.constructions.builder.firstSample.structure;
+package designPatterns.creational.builder.firstSample.structure;
 
 import lombok.Getter;
 import lombok.Setter;
