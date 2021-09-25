@@ -14,7 +14,7 @@
 | Create Phone Number          | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/CreatePhoneNumber.java) | [url](https://www.codewars.com/kata/525f50e3b73515a6db000b83) |
 | Break camelCase              | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BreakCamelCase.java) | [url](https://www.codewars.com/kata/5208f99aee097e6552000148) |
 | Stop gninnipS My sdroW!      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/StopGninnipSMySdroW.java) | [url](https://www.codewars.com/kata/5264d2b162488dc400000001) |
-| Persistent Bugger.           | [code](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) | [url](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) |
+| Persistent Bugger.           | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/PersistentBugger.java) | [url](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) |
 | Convert string to camel case | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/ConvertStringToCamelCase.java) | [url](https://www.codewars.com/kata/517abf86da9663f1d2000003) |
 | String array duplicates      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/StringArrayDuplicates.java) | [url](https://www.codewars.com/kata/59f08f89a5e129c543000069) |
 | Duplicate Encoder            | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/DuplicateEncoder.java) | [url](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) |
@@ -33,13 +33,13 @@
 | Split Strings                | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/SplitStrings.java) | [url](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) |
 | CamelCase Method             | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/CamelCaseMethod.java) | [url](https://www.codewars.com/kata/587731fda577b3d1b0001196) |
 | Backspaces in string         | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BackspacesInString.java) | [url](https://www.codewars.com/kata/5727bb0fe81185ae62000ae3) |
-| Array.diff                   | [code]() | [url](https://www.codewars.com/kata/523f5d21c841566fde000009) |
-| Find the missing letter      | [code]() | [url](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) |
-| Highest Scoring Word         | [code]() | [url](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272) |
-| Sums of Parts                | [code]() | [url](https://www.codewars.com/kata/5ce399e0047a45001c853c2b) |
-| Two Sum                      | [code]() | [url](https://www.codewars.com/kata/52c31f8e6605bcc646000082) |
-| Vasya - Clerk                | [code]() | [url](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8) |
-| Your order, please           | [code]() | [url](https://www.codewars.com/kata/55c45be3b2079eccff00010f) |
+| Array.diff                   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/ArrayDiff.java) | [url](https://www.codewars.com/kata/523f5d21c841566fde000009) |
+| Find the missing letter      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/FindTheMissingLetter.java) | [url](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) |
+| Highest Scoring Word         | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/HighestScoringWord.java) | [url](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272) |
+| Sums of Parts                | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/SumsOfParts.java) | [url](https://www.codewars.com/kata/5ce399e0047a45001c853c2b) |
+| Two Sum                      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TwoSum.java) | [url](https://www.codewars.com/kata/52c31f8e6605bcc646000082) |
+| Vasya - Clerk                | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/VasyaClerk.java) | [url](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8) |
+| Your order, please           | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/YourOrderPlease.java) | [url](https://www.codewars.com/kata/55c45be3b2079eccff00010f) |
 
 
 
