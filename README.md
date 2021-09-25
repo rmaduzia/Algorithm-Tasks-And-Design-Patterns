@@ -33,6 +33,13 @@
 | Split Strings                | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/SplitStrings.java) | [url](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) |
 | CamelCase Method             | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/CamelCaseMethod.java) | [url](https://www.codewars.com/kata/587731fda577b3d1b0001196) |
 | Backspaces in string         | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BackspacesInString.java) | [url](https://www.codewars.com/kata/5727bb0fe81185ae62000ae3) |
+| Array.diff                   | [code]() | [url](https://www.codewars.com/kata/523f5d21c841566fde000009) |
+| Find the missing letter      | [code]() | [url](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) |
+| Highest Scoring Word         | [code]() | [url](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272) |
+| Sums of Parts                | [code]() | [url](https://www.codewars.com/kata/5ce399e0047a45001c853c2b) |
+| Two Sum                      | [code]() | [url](https://www.codewars.com/kata/52c31f8e6605bcc646000082) |
+| Vasya - Clerk                | [code]() | [url](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8) |
+| Your order, please           | [code]() | [url](https://www.codewars.com/kata/55c45be3b2079eccff00010f) |
 
 
 
