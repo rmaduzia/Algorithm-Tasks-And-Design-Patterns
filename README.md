@@ -40,7 +40,11 @@
 | Two Sum                      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TwoSum.java) | [url](https://www.codewars.com/kata/52c31f8e6605bcc646000082) |
 | Vasya - Clerk                | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/VasyaClerk.java) | [url](https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8) |
 | Your order, please           | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/YourOrderPlease.java) | [url](https://www.codewars.com/kata/55c45be3b2079eccff00010f) |
-
+| Are they the "same"?         | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/AreTheyTheSame.java) | [url](https://www.codewars.com/kata/550498447451fbbd7600041c) |
+| Dubstep                      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/Dubstep.java) | [url](https://www.codewars.com/kata/551dc350bf4e526099000ae5) |
+| Playing with digits          | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/PlayingWithDigits.java) | [url](https://www.codewars.com/kata/5552101f47fc5178b1000050) |
+| Take a Ten Minute Walk       | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TakeATenMinuteWalk.java) | [url](https://www.codewars.com/kata/54da539698b8a2ad76000228) |
+| Tribonacci Sequence          | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TakeATenMinuteWalk.java) | [url](https://www.codewars.com/kata/556deca17c58da83c00002db) |
 
 
 
