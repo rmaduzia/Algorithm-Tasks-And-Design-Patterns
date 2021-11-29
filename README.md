@@ -45,6 +45,20 @@
 | Playing with digits          | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/PlayingWithDigits.java) | [url](https://www.codewars.com/kata/5552101f47fc5178b1000050) |
 | Take a Ten Minute Walk       | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TakeATenMinuteWalk.java) | [url](https://www.codewars.com/kata/54da539698b8a2ad76000228) |
 | Tribonacci Sequence          | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TakeATenMinuteWalk.java) | [url](https://www.codewars.com/kata/556deca17c58da83c00002db) |
+| A Rule of Divisibility by 13 | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/ARuleOfDivisibilityBy13.java) | [url](https://www.codewars.com/kata/564057bc348c7200bd0000ff) |
+| Build a pile of Cubes        | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BuildAPileOfCubes.java) | [url](https://www.codewars.com/kata/5592e3bd57b64d00f3000047) |
+| Consecutive strings          | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/ConsecutiveStrings.java) | [url](https://www.codewars.com/kata/56a5d994ac971f1ac500003e) |
+| Detect Pangram               | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/DetectPangram.java) | [url](https://www.codewars.com/kata/545cedaa9943f7fe7b000048) |
+| Equal Sides Of An Array      | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/EqualSidesOfAnArray.java) | [url](https://www.codewars.com/kata/5679aa472b8f57fb8c000047) |
+| Give me a Diamond            | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/GiveMeADiamond.java) | [url](https://www.codewars.com/kata/5503013e34137eeeaa001648) |
+| Make the Deadfish swim       | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/MakeTheDeadfishSwim.java) | [url](https://www.codewars.com/kata/51e0007c1f9378fa810002a9) |
+| Triple trouble               | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TripleTrouble.java) | [url](https://www.codewars.com/kata/55d5434f269c0c3f1b000058) |
+| Valid Braces                 | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/ValidBraces.java) | [url](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) |
+| Valid Phone Number           | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/ValidPhoneNumber.java) | [url](https://www.codewars.com/kata/525f47c79f2f25a4db000025) | 
+| Which are in?                | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/WhichAreIn.java) | [url](https://www.codewars.com/kata/550554fd08b86f84fe000a58) |
+| Write Number in Expanded Form| [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/WriteNumberInExpandedForm.java) | [url](https://www.codewars.com/kata/5842df8ccbd22792a4000245) |
+
+
 
 
 
