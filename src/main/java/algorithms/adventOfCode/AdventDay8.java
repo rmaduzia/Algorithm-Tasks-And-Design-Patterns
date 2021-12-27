@@ -17,10 +17,9 @@ public class AdventDay8 {
 
         List<String> dataFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay8.txt"));
 
-
         boolean run = true;
 
-        while(run) {
+        while (run) {
             visitedPCs.add(pc);
             String op = dataFromFiles.get(pc);
             String[] opAndArgs = op.split(" ");
@@ -40,28 +39,21 @@ public class AdventDay8 {
             if (visitedPCs.contains(pc)) {
                 run = false;
             }
-
         }
-
         return globalAcc;
-
     }
-
 
     public static int getResultAdventDay8Part2() throws IOException {
 
         List<String> dataFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay8.txt"));
-
-        Result result = execute(dataFromFiles);
 
         boolean run = true;
         int index = 0;
         String old = "";
         Result result2;
         do {
-
             boolean found = false;
-            while(!found && index < dataFromFiles.size()) {
+            while (!found && index < dataFromFiles.size()) {
                 String op = dataFromFiles.get(index);
                 String[] opAndArgs = op.split(" ");
 
@@ -86,10 +78,7 @@ public class AdventDay8 {
             }
             index++;
 
-        } while(run && index < dataFromFiles.size());
-
-
-
+        } while (run && index < dataFromFiles.size());
 
         return result2.acc;
     }
@@ -102,11 +91,9 @@ public class AdventDay8 {
 
         List<Integer> visitedPCs = new ArrayList<>();
 
-
-
         boolean run = true;
 
-        while(run) {
+        while (run) {
             visitedPCs.add(pc);
             String op = input.get(pc);
             String[] opAndArgs = op.split(" ");
@@ -122,7 +109,6 @@ public class AdventDay8 {
                     pc += Integer.parseInt(opAndArgs[1]);
                     break;
             }
-
             if (visitedPCs.contains(pc)) {
                 run = false;
                 toReturn.infinite = true;
@@ -132,19 +118,12 @@ public class AdventDay8 {
                 toReturn.infinite = false;
                 toReturn.acc = globalAcc;
             }
-
         }
-
-
         return toReturn;
     }
-
-
 
     private static class Result {
         boolean infinite;
         int acc;
     }
-
-
 }
