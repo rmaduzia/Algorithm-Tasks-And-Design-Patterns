@@ -1,6 +1,23 @@
 # Algorithm-Tasks-And-Design-Patterns
 
 
+# Advent of Code 2020
+
+| Day | Task Code                                                                                                                                  | Task URL                                    |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| 1   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay1.java)  | [url](https://adventofcode.com/2020/day/1)  |
+| 2   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay2.java)  | [url](https://adventofcode.com/2020/day/2)  |
+| 3   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay3.java)  | [url](https://adventofcode.com/2020/day/3)  |
+| 4   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay4.java)  | [url](https://adventofcode.com/2020/day/4)  |
+| 5   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay5.java)  | [url](https://adventofcode.com/2020/day/5)  |
+| 6   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay6.java)  | [url](https://adventofcode.com/2020/day/6)  |
+| 7   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay7.java)  | [url](https://adventofcode.com/2020/day/7)  |
+| 8   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay8.java)  | [url](https://adventofcode.com/2020/day/8)  |
+| 9   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay9.java)  | [url](https://adventofcode.com/2020/day/9)  |
+| 10  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay10.java) | [url](https://adventofcode.com/2020/day/10) |
+
+
+
 
 # Code Wars
 
@@ -65,22 +82,6 @@
 | Mexican Wave | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/MexicanWave.java) | [url](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029) |
 | Roman Numerals Encoder | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/RomanNumeralsEncoder.java) | [url](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) |
 | Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!! | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TakeANumberAndSumItsDigitsRaisedToTheConsecutivePowersAndEureka.java) | [url](https://www.codewars.com/kata/5626b561280a42ecc50000d1) |
-
-
-
-# Advent of Code 2020
-
-| Day  | Task Code                                                    | Task URL                                   |
-| ---- | ------------------------------------------------------------ | ------------------------------------------ |
-| 1    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay1.java) | [url](https://adventofcode.com/2020/day/1) |
-| 2    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay2.java) | [url](https://adventofcode.com/2020/day/2) |
-| 3    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay3.java) | [url](https://adventofcode.com/2020/day/3) |
-| 4    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay4.java) | [url](https://adventofcode.com/2020/day/4) |
-| 5    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay5.java) | [url](https://adventofcode.com/2020/day/5) |
-| 6    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay6.java) | [url](https://adventofcode.com/2020/day/6) |
-| 7    | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay7.java) | [url](https://adventofcode.com/2020/day/7) |
-
-
 
 
 
