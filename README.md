@@ -82,6 +82,10 @@
 | Mexican Wave | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/MexicanWave.java) | [url](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029) |
 | Roman Numerals Encoder | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/RomanNumeralsEncoder.java) | [url](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) |
 | Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!! | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TakeANumberAndSumItsDigitsRaisedToTheConsecutivePowersAndEureka.java) | [url](https://www.codewars.com/kata/5626b561280a42ecc50000d1) |
+| Binary to Text (ASCII) Conversion | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BinaryToTextASCIIConversion.java) | [url](https://www.codewars.com/kata/5583d268479559400d000064) |
+| Build Tower | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BuildTower.java) | [url](https://www.codewars.com/kata/576757b1df89ecf5bd00073b) |
+| Fractions class | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/FractionsClass.java) | [url](https://www.codewars.com/kata/572bbd7c72a38bd878000a73) |
+| Simple frequency sort | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/SimpleFrequencySort.java) | [url](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc) |
 
 
 
