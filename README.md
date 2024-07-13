@@ -86,6 +86,9 @@
 | Build Tower | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/BuildTower.java) | [url](https://www.codewars.com/kata/576757b1df89ecf5bd00073b) |
 | Fractions class | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/FractionsClass.java) | [url](https://www.codewars.com/kata/572bbd7c72a38bd878000a73) |
 | Simple frequency sort | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/SimpleFrequencySort.java) | [url](https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc) |
+| Simple string indices | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/SimpleStringIndices.java) | [url](https://www.codewars.com/kata/5a24254fe1ce0ec2eb000078) |
+| The Supermarket Queue | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/SixKyu/TheSupermarketQueue.java) | [url](https://www.codewars.com/kata/57b06f90e298a7b53d000a86) |
+| So Many Permutations! | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/codewars/FourKyu/Permutations.java) | [url](https://www.codewars.com/kata/5254ca2719453dcc0b00027d) |
 
 
 
