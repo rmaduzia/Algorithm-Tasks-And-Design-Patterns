@@ -15,6 +15,8 @@
 | 8   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay8.java)  | [url](https://adventofcode.com/2020/day/8)  |
 | 9   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay9.java)  | [url](https://adventofcode.com/2020/day/9)  |
 | 10  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay10.java) | [url](https://adventofcode.com/2020/day/10) |
+| 11  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay11.java) | [url](https://adventofcode.com/2020/day/11) |
+| 12  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/AdventDay12.java) | [url](https://adventofcode.com/2020/day/12) |
 
 
 
