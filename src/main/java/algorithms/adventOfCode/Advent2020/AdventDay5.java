@@ -1,16 +1,16 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
+import algorithms.adventOfCode.AdventOfCode;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class AdventDay5 {
+public class AdventDay5 extends AdventOfCode {
 
-
-    public static int getResultAdventDay5Part1() throws IOException {
-
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay5.txt"));
+    @Override
+    public int getFirstPartSolution() {
+        List<String> dateFromFile = getInputDataAsListOfString();
 
         int rowCol;
         int max=0;
@@ -33,5 +33,10 @@ public class AdventDay5 {
                 max = rowCol;
         }
         return max;
+    }
+
+    @Override
+    public int getSecondPartSolution() {
+        return 0;
     }
 }

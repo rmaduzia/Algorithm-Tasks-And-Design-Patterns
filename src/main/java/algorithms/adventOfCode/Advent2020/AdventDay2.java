@@ -1,17 +1,18 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
+import algorithms.adventOfCode.AdventOfCode;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
-public class AdventDay2 {
+public class AdventDay2 extends AdventOfCode {
 
-    public static int getResultAdventDay2Part1() throws IOException {
-
+    @Override
+    public int getFirstPartSolution() {
         int amountOfValidPassword = 0;
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay2.txt"));
+        List<String> dateFromFile = getInputDataAsListOfString();
 
         for (String s : dateFromFile) {
 
@@ -29,11 +30,10 @@ public class AdventDay2 {
         return amountOfValidPassword;
     }
 
-
-    public static int getResultAdventDay2Part2() throws IOException {
-
+    @Override
+    public int getSecondPartSolution() {
         int amountOfValidPassword = 0;
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay2.txt"));
+        List<String> dateFromFile = getInputDataAsListOfString();
 
         for (String s : dateFromFile) {
 
