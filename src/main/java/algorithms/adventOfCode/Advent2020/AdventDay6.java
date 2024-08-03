@@ -12,11 +12,11 @@ import com.google.common.collect.Sets;
 public class AdventDay6 extends AdventOfCode {
 
     @Override
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
 
         List<String> dateFromFiles = getInputDataAsListOfString();
         StringBuilder builder = new StringBuilder();
-        int counter = 0;
+        long counter = 0;
 
         Iterator<String> iterator = dateFromFiles.iterator();
         while (iterator.hasNext()) {
@@ -25,7 +25,7 @@ public class AdventDay6 extends AdventOfCode {
                 counter += builder.toString().chars().distinct().count();
                 builder.setLength(0);
             }
-            if (!name.equals("")) {
+            if (!name.isEmpty()) {
                 builder.append(name);
             }
             else {
@@ -37,7 +37,7 @@ public class AdventDay6 extends AdventOfCode {
     }
 
     @Override
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
         String dateFromFiles = getInputDataAsString();
 
         return Arrays.stream(dateFromFiles.split("\n\n"))
