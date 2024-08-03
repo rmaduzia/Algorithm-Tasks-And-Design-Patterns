@@ -9,13 +9,13 @@ import java.util.List;
 public class AdventDay1 extends AdventOfCode {
 
     @Override
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
         List<String> dateFromFile = getInputDataAsListOfString();
 
         for (int i=0; i<dateFromFile.size(); i++) {
             for (String s : dateFromFile) {
                 if (Integer.parseInt(dateFromFile.get(i)) + Integer.parseInt(s) == 2020) {
-                    return Integer.parseInt(dateFromFile.get(i)) * Integer.parseInt(s);
+                    return Long.parseLong(dateFromFile.get(i)) * Integer.parseInt(s);
                 }
             }
         }
@@ -23,7 +23,7 @@ public class AdventDay1 extends AdventOfCode {
     }
 
     @Override
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
         return 0;
     }
 }

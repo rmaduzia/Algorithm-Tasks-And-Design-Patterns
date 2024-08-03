@@ -23,7 +23,7 @@ public class AdventDay12 extends AdventOfCode {
         COORDINATIONS.put(270, new int[]{0, -1});
     }
 
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
 
         List<String> dataFromFile = getInputDataAsListOfString();
 
@@ -53,7 +53,7 @@ public class AdventDay12 extends AdventOfCode {
         return Math.abs(position[0]) + Math.abs(position[1]);
     }
 
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
 
         int[] shipPosition = new int[]{0,0};
         int[] waypoint = new int[]{1, 10};

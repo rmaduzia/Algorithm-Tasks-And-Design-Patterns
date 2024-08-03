@@ -11,7 +11,7 @@ public class AdventDay4 extends AdventOfCode {
     public List<String> dateFromFile;
 
     @Override
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
         StringBuilder fullData = new StringBuilder();
         int validPassports;
         dateFormater(fullData);
@@ -23,7 +23,7 @@ public class AdventDay4 extends AdventOfCode {
     }
 
     @Override
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
         int validPassports;
         StringBuilder fullData = new StringBuilder();
         dateFormater(fullData);

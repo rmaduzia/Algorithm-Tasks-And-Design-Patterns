@@ -10,7 +10,7 @@ import java.util.List;
 public class AdventDay2 extends AdventOfCode {
 
     @Override
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
         int amountOfValidPassword = 0;
         List<String> dateFromFile = getInputDataAsListOfString();
 
@@ -31,7 +31,7 @@ public class AdventDay2 extends AdventOfCode {
     }
 
     @Override
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
         int amountOfValidPassword = 0;
         List<String> dateFromFile = getInputDataAsListOfString();
 

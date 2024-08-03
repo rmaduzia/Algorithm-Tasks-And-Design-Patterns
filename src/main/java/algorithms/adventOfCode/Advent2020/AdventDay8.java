@@ -10,7 +10,7 @@ import java.util.List;
 public class AdventDay8 extends AdventOfCode {
 
     @Override
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
 
         int globalAcc = 0;
         int pc = 0;
@@ -46,7 +46,7 @@ public class AdventDay8 extends AdventOfCode {
     }
 
     @Override
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
         List<String> dataFromFiles = getInputDataAsListOfString();
 
         boolean run = true;

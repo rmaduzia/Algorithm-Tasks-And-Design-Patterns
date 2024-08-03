@@ -8,8 +8,8 @@ import java.util.List;
 
 public abstract class AdventOfCode {
 
-    public abstract int getFirstPartSolution();
-    public abstract int getSecondPartSolution();
+    public abstract long getFirstPartSolution();
+    public abstract long getSecondPartSolution();
 
     public String getInputPath() {
         String packageName = getClass().getPackageName();

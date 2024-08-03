@@ -9,7 +9,7 @@ import java.util.List;
 public class AdventDay5 extends AdventOfCode {
 
     @Override
-    public int getFirstPartSolution() {
+    public long getFirstPartSolution() {
         List<String> dateFromFile = getInputDataAsListOfString();
 
         int rowCol;
@@ -36,7 +36,7 @@ public class AdventDay5 extends AdventOfCode {
     }
 
     @Override
-    public int getSecondPartSolution() {
+    public long getSecondPartSolution() {
         return 0;
     }
 }
