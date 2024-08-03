@@ -33,4 +33,31 @@ public abstract class AdventOfCode {
         return dataFromFile;
     }
 
+    public List<Long> getInputDataAsListOfLong() {
+        List<Long> dataFromFile = new ArrayList<>();
+        System.out.println(getInputPath());
+        try {
+            dataFromFile = Files.readAllLines(Paths.get(getInputPath()))
+                .stream()
+                .map(Long::valueOf)
+                .toList();
+        } catch (IOException ioException) {
+            System.out.println("Couldn't find input data. Used path: " + getInputPath());
+        }
+
+        return dataFromFile;
+    }
+
+    public String getInputDataAsString() {
+        String dataFromFile = "";
+        System.out.println(getInputPath());
+        try {
+            dataFromFile = Files.readString(Paths.get(getInputPath()));
+        } catch (IOException ioException) {
+            System.out.println("Couldn't find input data. Used path: " + getInputPath());
+        }
+
+        return dataFromFile;
+    }
+
 }

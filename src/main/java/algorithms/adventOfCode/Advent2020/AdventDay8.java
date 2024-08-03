@@ -1,21 +1,23 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
+import algorithms.adventOfCode.AdventOfCode;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay8 {
+public class AdventDay8 extends AdventOfCode {
 
-    public static int getResultAdventDay8Part1() throws IOException {
+    @Override
+    public int getFirstPartSolution() {
 
         int globalAcc = 0;
         int pc = 0;
 
         List<Integer> visitedPCs = new ArrayList<>();
 
-        List<String> dataFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay8.txt"));
+        List<String> dataFromFiles = getInputDataAsListOfString();
 
         boolean run = true;
 
@@ -43,9 +45,9 @@ public class AdventDay8 {
         return globalAcc;
     }
 
-    public static int getResultAdventDay8Part2() throws IOException {
-
-        List<String> dataFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay8.txt"));
+    @Override
+    public int getSecondPartSolution() {
+        List<String> dataFromFiles = getInputDataAsListOfString();
 
         boolean run = true;
         int index = 0;

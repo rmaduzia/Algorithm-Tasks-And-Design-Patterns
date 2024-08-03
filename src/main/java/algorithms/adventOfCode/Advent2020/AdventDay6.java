@@ -1,5 +1,6 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
+import algorithms.adventOfCode.AdventOfCode;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -8,11 +9,12 @@ import java.util.stream.Collectors;
 import com.google.common.collect.Sets;
 
 
-public class AdventDay6 {
+public class AdventDay6 extends AdventOfCode {
 
-    public static int getResultAdventDay6Part1() throws IOException {
+    @Override
+    public int getFirstPartSolution() {
 
-        List<String> dateFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay6.txt"));
+        List<String> dateFromFiles = getInputDataAsListOfString();
         StringBuilder builder = new StringBuilder();
         int counter = 0;
 
@@ -34,16 +36,16 @@ public class AdventDay6 {
         return counter;
     }
 
-    public static int getResultAdventDay6Part2() throws IOException {
-
-        String dateFromFiles = Files.readString(Paths.get("src/main/resources/inputs/adventOfCodeDay6.txt"));
+    @Override
+    public int getSecondPartSolution() {
+        String dateFromFiles = getInputDataAsString();
 
         return Arrays.stream(dateFromFiles.split("\n\n"))
-                .mapToInt(group -> group.lines()
-                        .map(person -> person.chars().boxed().collect(Collectors.toSet()))
-                        .reduce(Sets::intersection)
-                        .orElse(Set.of())
-                        .size())
-                .sum();
+            .mapToInt(group -> group.lines()
+                .map(person -> person.chars().boxed().collect(Collectors.toSet()))
+                .reduce(Sets::intersection)
+                .orElse(Set.of())
+                .size())
+            .sum();
     }
 }

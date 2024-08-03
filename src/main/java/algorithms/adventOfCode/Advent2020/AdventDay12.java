@@ -1,14 +1,12 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import algorithms.adventOfCode.AdventOfCode;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-public class AdventDay12 {
+public class AdventDay12 extends AdventOfCode {
 
     public static Map<String, int[]> DIRECTIONS = new HashMap<>();
     public static Map<Integer, int[]> COORDINATIONS = new HashMap<>();
@@ -25,9 +23,9 @@ public class AdventDay12 {
         COORDINATIONS.put(270, new int[]{0, -1});
     }
 
-    public static int getResultAdventDay12Part1() throws IOException {
+    public int getFirstPartSolution() {
 
-        List<String> dataFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay12.txt"));
+        List<String> dataFromFile = getInputDataAsListOfString();
 
         int [] position = new int[]{0,0};
         int directionFace = 90;
@@ -55,12 +53,12 @@ public class AdventDay12 {
         return Math.abs(position[0]) + Math.abs(position[1]);
     }
 
-    public static int getResultAdventDay12Part2() throws IOException {
+    public int getSecondPartSolution() {
 
         int[] shipPosition = new int[]{0,0};
         int[] waypoint = new int[]{1, 10};
 
-        List<String> dataFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay12.txt"));
+        List<String> dataFromFile = getInputDataAsListOfString();
 
         for(String value: dataFromFile) {
             String direction = value.split("")[0];
