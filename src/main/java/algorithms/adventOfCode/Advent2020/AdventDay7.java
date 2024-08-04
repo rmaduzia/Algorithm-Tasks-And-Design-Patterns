@@ -1,23 +1,17 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import algorithms.adventOfCode.AdventOfCode;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class AdventDay7 {
+public class AdventDay7 extends AdventOfCode {
 
     Map<String, List<BagInfo>> bags = new HashMap<>();
-    List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay7.txt"));
 
-    public AdventDay7() throws IOException {
-    }
-
-    public int getResultAdventDay7Part1() {
-
+    @Override
+    public long getFirstPartSolution() {
         fillValue();
 
         int count = 0;
@@ -28,14 +22,16 @@ public class AdventDay7 {
         return count;
     }
 
-    public int getResultAdventDay7Part2() {
-
+    @Override
+    public long getSecondPartSolution() {
         fillValue();
 
         return countBagsInGoldBag("shiny gold") -1;
     }
 
     private void fillValue() {
+        List<String> dateFromFile = getInputDataAsListOfString();
+
         for (String value : dateFromFile) {
             String[] split1 = value.substring(0, value.length() - 1).split("bags contain");
             String outerBag = split1[0].trim();

@@ -1,15 +1,13 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import algorithms.adventOfCode.AdventOfCode;
 import java.util.List;
 
-public class AdventDay9 {
+public class AdventDay9 extends AdventOfCode {
 
-    public static long getResultAdventDay9Part1() throws IOException {
-
-        List<Long> dataFromFile = getLongs();
+    @Override
+    public long getFirstPartSolution() {
+        List<Long> dataFromFile = getInputDataAsListOfLong();
 
         boolean isFound;
 
@@ -35,11 +33,12 @@ public class AdventDay9 {
         return -1;
     }
 
-    public static long getResultAdventDay9Part2() throws IOException {
+    @Override
+    public long getSecondPartSolution() {
 
-        List<Long> dataFromFile = getLongs();
+        List<Long> dataFromFile = getInputDataAsListOfLong();
 
-        long number = getResultAdventDay9Part1();
+        long number = getFirstPartSolution();
 
         long min;
         long max;
@@ -65,12 +64,4 @@ public class AdventDay9 {
         }
         return -1;
     }
-
-    private static List<Long> getLongs() throws IOException {
-        return Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay9.txt"))
-            .stream()
-            .map(Long::valueOf)
-            .toList();
-    }
-
 }

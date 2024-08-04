@@ -1,36 +1,25 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import algorithms.adventOfCode.AdventOfCode;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class AdventDay11 {
+public class AdventDay11 extends AdventOfCode {
 
     private static final int[][] DIRECTIONS = {
         {1, 0}, {-1, 0}, {0, 1}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}
     };
 
-    public static int getResultAdventDay11Part1() throws IOException {
-
-        List<List<Character>> dataFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay11.txt"))
-            .stream()
-            .map(line -> line.chars()
-                .mapToObj(c -> (char) c).collect(Collectors.toList()))
-            .toList();
+    @Override
+    public long getFirstPartSolution() {
+        List<List<Character>> dataFromFile = getInputDataAsListOfListCharacters();
 
         return run(dataFromFile, AdventDay11::checkAdjacent, 4);
     }
 
-    public static int getResultAdventDay11Part2() throws IOException {
-
-        List<List<Character>> dataFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay11.txt"))
-            .stream()
-            .map(line -> line.chars()
-                .mapToObj(c -> (char) c).collect(Collectors.toList()))
-            .toList();
+    @Override
+    public long getSecondPartSolution() {
+        List<List<Character>> dataFromFile = getInputDataAsListOfListCharacters();
 
         return run(dataFromFile, AdventDay11::checkVisibility, 5);
     }
@@ -116,11 +105,8 @@ public class AdventDay11 {
                 }
             }
         }
-
-
         return counter;
     }
-
 
     @FunctionalInterface
     interface SeatChecker {

@@ -1,23 +1,20 @@
-package algorithms.adventOfCode;
+package algorithms.adventOfCode.Advent2020;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import algorithms.adventOfCode.AdventOfCode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay10 {
+public class AdventDay10 extends AdventOfCode {
 
-    public static int getResultAdventDay10Part1() throws IOException {
-
-        List<Long> dataFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay10.txt"))
+    @Override
+    public long getFirstPartSolution() {
+        List<Long> dataFromFile = getInputDataAsListOfLong()
             .stream()
-            .map(Long::valueOf)
             .sorted()
             .toList();
 
-        int oneJoltCounter = 0;
-        int threeJoltCounter = 0;
+        long oneJoltCounter = 0;
+        long threeJoltCounter = 0;
 
         long currentJoltage = 0;
         for (Long adapter : dataFromFile) {
@@ -36,11 +33,10 @@ public class AdventDay10 {
         return oneJoltCounter * threeJoltCounter;
     }
 
-    public static long getResultAdventDay10Part2() throws IOException {
-
-        List<Long> dataFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay10.txt"))
+    @Override
+    public long getSecondPartSolution() {
+        List<Long> dataFromFile = getInputDataAsListOfLong()
             .stream()
-            .map(Long::valueOf)
             .sorted()
             .toList();
 
