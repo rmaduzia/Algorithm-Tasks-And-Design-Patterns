@@ -32,6 +32,23 @@ public class AdventDay13 extends AdventOfCode {
     @Override
     public long getSecondPartSolution() {
 
-        return 0;
+        List<String> inputData = getInputDataAsListOfString();
+
+        List<Integer> buses = Arrays.stream(inputData.get(1).split(",")).map(v -> v.equals("x") ? 1: Integer.parseInt(v)).toList();
+
+        long time = 0;
+        long stepIncrement = buses.get(0);
+
+        for(int i = 1; i < buses.size(); i++) {
+
+            int bus = buses.get(i);
+
+            while ((time + i) % bus != 0) {
+                time += stepIncrement;
+            }
+            stepIncrement *= bus;
+        }
+
+        return time;
     }
 }
