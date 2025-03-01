@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -45,9 +46,23 @@ public abstract class AdventOfCode {
         } catch (IOException ioException) {
             System.out.println("Couldn't find input data. Used path: " + getInputPath());
         }
-
         return dataFromFile;
     }
+
+    public List<Long> getInputDataSplitAndConvertToListOfLong() {
+        List<Long> dataFromFile = new ArrayList<>();
+        System.out.println(getInputPath());
+        try {
+            dataFromFile = Files.readAllLines(Paths.get(getInputPath()))
+                .stream()
+                .flatMap(s -> Arrays.stream(s.split(" ")).map(Long::valueOf))
+                .collect(Collectors.toList());
+        } catch (IOException ioException) {
+            System.out.println("Couldn't find input data. Used path: " + getInputPath());
+        }
+        return dataFromFile;
+    }
+
     public List<List<Character>> getInputDataAsListOfListCharacters() {
         List<List<Character>> dataFromFile = new ArrayList<>();
         System.out.println(getInputPath());
