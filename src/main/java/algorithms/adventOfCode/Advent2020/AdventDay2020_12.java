@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-public class AdventDay12 extends AdventOfCode {
+public class AdventDay2020_12 extends AdventOfCode {
 
     public static Map<String, int[]> DIRECTIONS = new HashMap<>();
     public static Map<Integer, int[]> COORDINATIONS = new HashMap<>();

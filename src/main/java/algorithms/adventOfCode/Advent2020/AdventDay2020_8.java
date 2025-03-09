@@ -1,13 +1,10 @@
 package algorithms.adventOfCode.Advent2020;
 
 import algorithms.adventOfCode.AdventOfCode;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay8 extends AdventOfCode {
+public class AdventDay2020_8 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {

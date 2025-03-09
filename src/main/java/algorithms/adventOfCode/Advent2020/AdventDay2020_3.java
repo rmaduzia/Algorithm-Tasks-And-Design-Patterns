@@ -5,11 +5,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class AdventDay3 {
+public class AdventDay2020_3 {
 
     public static int getResultAdventDay3Part1(int right, int down) throws IOException {
 
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/AdventDay3.txt"));
+        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/AdventDay2020_3.txt"));
 
         int trees = 0;
         int index = 0;

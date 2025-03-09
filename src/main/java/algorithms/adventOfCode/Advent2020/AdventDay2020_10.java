@@ -4,7 +4,7 @@ import algorithms.adventOfCode.AdventOfCode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay10 extends AdventOfCode {
+public class AdventDay2020_10 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {

@@ -4,7 +4,7 @@ import algorithms.adventOfCode.AdventOfCode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay11 extends AdventOfCode {
+public class AdventDay2020_11 extends AdventOfCode {
 
     private static final int[][] DIRECTIONS = {
         {1, 0}, {-1, 0}, {0, 1}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}
@@ -14,14 +14,14 @@ public class AdventDay11 extends AdventOfCode {
     public long getFirstPartSolution() {
         List<List<Character>> dataFromFile = getInputDataAsListOfListCharacters();
 
-        return run(dataFromFile, AdventDay11::checkAdjacent, 4);
+        return run(dataFromFile, AdventDay2020_11::checkAdjacent, 4);
     }
 
     @Override
     public long getSecondPartSolution() {
         List<List<Character>> dataFromFile = getInputDataAsListOfListCharacters();
 
-        return run(dataFromFile, AdventDay11::checkVisibility, 5);
+        return run(dataFromFile, AdventDay2020_11::checkVisibility, 5);
     }
 
     public static int run (List<List<Character>> dataFromFile, SeatChecker check, int occupancyThreshold) {

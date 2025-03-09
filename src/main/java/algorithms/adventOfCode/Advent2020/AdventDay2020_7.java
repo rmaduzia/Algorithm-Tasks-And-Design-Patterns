@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class AdventDay7 extends AdventOfCode {
+public class AdventDay2020_7 extends AdventOfCode {
 
     Map<String, List<BagInfo>> bags = new HashMap<>();
 

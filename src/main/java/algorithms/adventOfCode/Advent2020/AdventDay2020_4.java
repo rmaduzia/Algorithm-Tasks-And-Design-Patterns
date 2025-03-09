@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class AdventDay4 extends AdventOfCode {
+public class AdventDay2020_4 extends AdventOfCode {
 
     public static List<String> validKeys = Arrays.asList("hcl", "iyr", "hgt", "pid", "byr", "eyr", "ecl");
     public List<String> dateFromFile;
@@ -17,7 +17,8 @@ public class AdventDay4 extends AdventOfCode {
         dateFormater(fullData);
 
         validPassports = (int) Arrays.stream(fullData.toString().split(System.lineSeparator() + System.lineSeparator())).map(s -> s.replace(System.lineSeparator(), " "))
-            .map(s -> Arrays.stream(s.split(" ")).map(s1 -> s1.split(":")).collect(Collectors.toMap(strings -> strings[0], o -> o[1]))).filter(AdventDay4::isValidPart1).count();
+            .map(s -> Arrays.stream(s.split(" ")).map(s1 -> s1.split(":")).collect(Collectors.toMap(strings -> strings[0], o -> o[1]))).filter(
+                AdventDay2020_4::isValidPart1).count();
 
         return validPassports;
     }
@@ -29,7 +30,8 @@ public class AdventDay4 extends AdventOfCode {
         dateFormater(fullData);
 
         validPassports = (int) Arrays.stream(fullData.toString().split(System.lineSeparator() + System.lineSeparator())).map(s -> s.replace(System.lineSeparator(), " "))
-            .map(s -> Arrays.stream(s.split(" ")).map(s1 -> s1.split(":")).collect(Collectors.toMap(strings -> strings[0], o -> o[1]))).filter(AdventDay4::isValidPart2).count();
+            .map(s -> Arrays.stream(s.split(" ")).map(s1 -> s1.split(":")).collect(Collectors.toMap(strings -> strings[0], o -> o[1]))).filter(
+                AdventDay2020_4::isValidPart2).count();
 
         return validPassports;
     }

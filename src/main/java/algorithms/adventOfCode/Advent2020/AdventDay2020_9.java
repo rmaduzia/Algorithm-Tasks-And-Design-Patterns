@@ -3,7 +3,7 @@ package algorithms.adventOfCode.Advent2020;
 import algorithms.adventOfCode.AdventOfCode;
 import java.util.List;
 
-public class AdventDay9 extends AdventOfCode {
+public class AdventDay2020_9 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {
