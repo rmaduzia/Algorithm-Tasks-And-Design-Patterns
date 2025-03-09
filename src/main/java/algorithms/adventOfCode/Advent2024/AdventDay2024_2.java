@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class AdventDay2 extends AdventOfCode {
+public class AdventDay2024_2 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {

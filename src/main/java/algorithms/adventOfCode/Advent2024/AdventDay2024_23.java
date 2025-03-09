@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class AdventDay23 extends AdventOfCode {
+public class AdventDay2024_23 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {

@@ -2,15 +2,13 @@ package algorithms.adventOfCode.Advent2024;
 
 import algorithms.adventOfCode.AdventOfCode;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import org.checkerframework.checker.units.qual.A;
 
-public class AdventDay1 extends AdventOfCode {
+public class AdventDay2024_1 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {

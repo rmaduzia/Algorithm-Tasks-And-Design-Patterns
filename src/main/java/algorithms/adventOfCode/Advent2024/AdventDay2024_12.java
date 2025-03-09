@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-public class AdventDay12 extends AdventOfCode {
+public class AdventDay2024_12 extends AdventOfCode {
 
     private static final int[][] DIRECTIONS = {
         {-1, 0}, // up

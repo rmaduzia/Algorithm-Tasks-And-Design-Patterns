@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-public class AdventDay5 extends AdventOfCode {
+public class AdventDay2024_5 extends AdventOfCode {
 
     @Override
     public long getFirstPartSolution() {

@@ -3,7 +3,7 @@ package algorithms.adventOfCode.Advent2024;
 import algorithms.adventOfCode.AdventOfCode;
 import java.util.List;
 
-public class AdventDay4 extends AdventOfCode {
+public class AdventDay2024_4 extends AdventOfCode {
 
     private static final String XMAS = "XMAS";
     private static final String MAS = "X-MAS";

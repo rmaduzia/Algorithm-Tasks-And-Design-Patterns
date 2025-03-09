@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class AdventDay3 extends AdventOfCode {
+public class AdventDay2024_3 extends AdventOfCode {
 
     private static final String MUL_REGEX = "(?<=mul\\()\\d+,\\d+(?=\\))";
     private static final Pattern MUL_PATTERN = Pattern.compile(MUL_REGEX);
