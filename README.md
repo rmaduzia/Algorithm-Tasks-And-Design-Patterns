@@ -20,7 +20,17 @@
 | 13  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2020/AdventDay2020_13.java) | [url](https://adventofcode.com/2020/day/13) |
 
 
+# Advent of Code 2024
 
+| Day | Task Code                                                                                                                                                  | Task URL                                    |
+|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| 1   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_1.java)  | [url](https://adventofcode.com/2024/day/1)  |
+| 2   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_2.java)  | [url](https://adventofcode.com/2024/day/2)  |
+| 3   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_3.java)  | [url](https://adventofcode.com/2024/day/3)  |
+| 4   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_4.java)  | [url](https://adventofcode.com/2024/day/4)  |
+| 5   | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_5.java)  | [url](https://adventofcode.com/2024/day/5)  |
+| 12  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_12.java) | [url](https://adventofcode.com/2024/day/12) |
+| 23  | [code](https://github.com/rmaduzia/Algorithm-Tasks-And-Design-Patterns/blob/master/src/main/java/algorithms/adventOfCode/Advent2024/AdventDay2024_13.java) | [url](https://adventofcode.com/2024/day/13) |
 
 # Code Wars
 
