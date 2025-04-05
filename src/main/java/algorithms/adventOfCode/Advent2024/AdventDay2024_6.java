@@ -71,6 +71,98 @@ public class AdventDay2024_6 extends AdventOfCode {
 
     @Override
     public long getSecondPartSolution() {
-        return 0;
+        List<String> lines = getInputDataAsListOfString();
+
+        int rows = lines.size();
+        int cols = lines.get(0).length();
+
+        boolean[][] walls = new boolean[rows][cols];
+        boolean[][] referenceMap = new boolean[rows][cols];
+        int[][] deltaMap = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
+
+        int[] location = new int[2];
+
+        for (int y = 0; y < rows; y++) {
+            String line = lines.get(y);
+            if (line.contains("^")) {
+                location[0] = y;
+                location[1] = line.indexOf('^');
+            }
+
+            for (int x = 0; x < cols; x++) {
+                if (lines.get(y).charAt(x) == '#') {
+                    walls[y][x] = true;
+                }
+            }
+        }
+
+        walk(referenceMap, location.clone(), deltaMap, walls, lines);
+
+        int result = 0;
+        for (int y = 0; y < rows; y++) {
+            for (int x = 0; x < cols; x++) {
+                if (referenceMap[y][x]) {
+                    if (!(y == location[0] && x == location[1])) {
+                        if (detectLoop(location.clone(), y, x, deltaMap, walls, lines)) {
+                            result++;
+                        }
+                    }
+                }
+            }
+        }
+
+        return result;
+    }
+
+    private void walk(boolean[][] map, int[] location, int[][] deltaMap, boolean[][] walls, List<String> lines) {
+        int direction = 0;
+
+        while (true) {
+            map[location[0]][location[1]] = true;
+
+            int dY = location[0] + deltaMap[direction % 4][0];
+            int dX = location[1] + deltaMap[direction % 4][1];
+
+            if (dY < 0 || dY >= lines.size() || dX < 0 || dX >= lines.get(0).length()) {
+                return;
+            }
+
+            if (walls[dY][dX]) {
+                direction++;
+            } else {
+                location[0] = dY;
+                location[1] = dX;
+            }
+        }
+    }
+
+    private boolean detectLoop(int[] location, int obstacleY, int obstacleX, int[][] deltaMap, boolean[][] walls, List<String> lines) {
+        int rows = lines.size();
+        int cols = lines.get(0).length();
+
+        boolean[][][] visited = new boolean[rows][cols][4];
+        int direction = 0;
+
+        while (true) {
+            visited[location[0]][location[1]][direction % 4] = true;
+
+            int dY = location[0] + deltaMap[direction % 4][0];
+            int dX = location[1] + deltaMap[direction % 4][1];
+
+            if (dY < 0 || dY >= rows || dX < 0 || dX >= cols) {
+                return false;
+            }
+
+            if (visited[dY][dX][direction % 4]) {
+                return true;
+            }
+
+            if (walls[dY][dX] || (dY == obstacleY && dX == obstacleX)) {
+                direction++;
+            } else {
+                location[0] = dY;
+                location[1] = dX;
+            }
+        }
     }
 }
